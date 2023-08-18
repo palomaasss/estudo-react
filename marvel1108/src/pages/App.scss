@@ -1,0 +1,80 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    background-color: #8BA9BE;
+
+  .cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 8vh;
+
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .c-s2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 20px;
+    color: rgb(63, 63, 63);
+    font-size: 18px;
+  }
+  .c-s2 img{
+    height: 3vh;
+  }
+
+
+
+
+  .s1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 40vh;
+    gap: 15px;
+
+
+    color: #43515A;
+    font-size: 30px;
+  }
+  .s1 h1{
+    width: 30vw;
+    text-align: right;
+  }
+
+  .s1-1{
+    width: 25vw;
+  }
+  .s1-1 p{
+    font-size: 18px;
+    color: #43515A;
+  }
+  .s1-1 input{
+    width: 15vw;
+    height: 5vh;
+    border: none;
+    background-color: #43515a00;
+    font-size: 16px;
+  }
+
+  .input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF3D;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 75px;
+    gap: 5px;
+  }
+  
+
+}
