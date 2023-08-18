@@ -1,0 +1,216 @@
+.App {
+  background-color: rgb(24, 24, 24);
+  width: 100vw;
+  height: 100vh;
+
+
+  display: flex;
+  flex-direction: row;
+
+
+  .s1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 15vw;
+  }
+
+
+  .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+  .logo img{
+    height: 5vh;
+  }
+  .logo h2{
+    font-size: 16px;
+    margin-left: 5px;
+  }
+
+
+  .s1-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-left: 15px;
+  }
+  .s1-1-lado{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px
+  }
+  .s1-1-lado:hover{
+    cursor: pointer;
+    color: rgb(130, 24, 151);
+    transition: 0.3s;
+  }
+  .s1-1-lado img{
+    height: 3vh;
+  }
+  .s1-1-lado p{
+    font-size: 14px;
+  }
+
+
+
+  .s2{
+   
+
+
+    width: 85vw;
+    
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .s2-novas{
+    background-color: rgb(78, 78, 78);
+    border-radius: 55px;
+    padding: 2px 15px;
+  }
+  .s2-novas:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    letter-spacing: 1px;
+  }
+  .s2-novas h3{
+    color: white;
+    font-size: 10px;
+  }
+
+
+  .s2-stories img{
+    margin-top: 5px;
+    height: 12vh;
+  }
+  .s2-stories img:hover{
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: 0.8s;
+  }
+
+
+
+
+  .s2-post{
+    background-color: rgb(78, 78, 78);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 35vw;
+    height: 35vh;
+    padding: 20px;
+    margin-top: 40px;
+    gap: 10px
+    
+  }
+
+  .s2-post b{
+    font-size: 15px;
+    color: white;
+  }
+
+  .s2-post-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .s2-post-1 input{
+    padding-left: 3px;
+    height: 4vh;
+    border-radius: 5px;
+    border: none
+  }
+
+
+
+  .s2-post-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .s2-post-2 input{
+    padding-left: 5px;
+    height: 4vh;
+    width: 30vw;
+    border-radius: 5px;
+    border: none
+  }
+
+
+
+  .s2-post-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+  }
+  .s2-post-3 input{
+    
+    padding-left: 5px;
+    height: 10vh;
+    width: 29vw;
+    border-radius: 5px;
+    border: none
+  }
+
+
+
+  .s2-post-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+  .s2-post-4 input{
+    padding-left: 7px;
+    height: 4vh;
+    border-radius: 5px;
+    border: none
+  }
+
+
+
+  .s2-post-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  button{
+    background-color: rgb(218, 33, 64);
+    color: white;
+    border: none;
+    width: 25vw;
+    height: 4vh;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  button:hover{
+    border-radius: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+ 
+}

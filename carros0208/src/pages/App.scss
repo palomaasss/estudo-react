@@ -1,0 +1,121 @@
+.pag-simulador{
+
+
+
+  .cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 15px;
+    height: 8vh;
+    width: 90vw;
+    background-color: white;
+  }
+
+  .cabecalho img{
+    height: 5vh;
+  }
+
+  .cabecalho h2{
+    color: gray;
+  }
+
+
+  h1{
+    margin: 25px;
+    color: rgb(143, 143, 143);
+   
+  }
+
+
+  .pag-center{
+    background-color: rgb(235, 235, 235);
+    height: 88vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .center{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(219, 219, 219);
+    height: 60vh;
+    width: 50vw;
+
+  }
+  .center img{
+    height: 15vh;
+    }
+
+    .img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 25vw;
+    }
+
+  .simulador{
+    background-color: rgb(255, 255, 255);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+
+    
+    height: 55vh;
+    width: 35vw;
+    padding: 15px;
+  }
+
+  .lado{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+  input{
+    width: 5vw;
+    height: 3vh;
+    border: 1px solid rgb(202, 202, 202)
+
+  }
+  p{
+    text-align: left;
+    font-size: 18px;
+  }
+  button{
+    background-color: rgb(83, 143, 255);
+    color: white;
+    border: none;
+    width: 20vw;
+    padding: 15px;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  label{
+    text-align: left;
+  }
+  .cimabaixo{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .cimabaixo input{
+    margin-right: 15px;
+  }
+
+
+
+}

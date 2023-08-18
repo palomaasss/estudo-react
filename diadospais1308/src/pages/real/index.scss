@@ -1,0 +1,18 @@
+.App{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 40px;
+
+
+    img{
+        height: 40vh;
+    }
+
+    p{
+        text-align: left;
+        width: 60vw;
+    }
+}
