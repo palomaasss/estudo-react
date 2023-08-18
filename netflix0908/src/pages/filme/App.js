@@ -19,10 +19,6 @@ function App() {
 
   }
 
-  useEffect (() => {
-    pesq (`http://www.omdbapi.com/?apikey=357573e6&s=${filme}`);
-
-  })[filme]
 
 
 
