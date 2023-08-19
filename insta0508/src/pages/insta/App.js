@@ -76,7 +76,7 @@ function App() {
 
             <div className='s2-post-4'> 
                 <b>Post:</b> <input type='text'  placeholder='ex: link da foto'  value={post} onChange={e => setPost(e.target.value)}/>
-                <b>Curtidas:</b> <input type='text'  placeholder='0'  value={curtidas} onChange={e => setCurtidas(Number(e.target.value))}/>
+                <b>Curtidas:</b> <input type='text'  placeholder='0'  value={curtidas} onChange={e => setCurtidas(e.target.value)}/>
             </div>
 
             <div className='s2-post-5'> <button> Postar </button> </div>
