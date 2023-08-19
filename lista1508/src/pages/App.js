@@ -74,7 +74,7 @@ function App() {
                   <tr>
                     <td>{item.nome}</td>
                     <td>{item.chamada}</td>
-                    <td><button  id='lixo' onClick={() => Excluir(item)}>  <img src='/assets/images/lixo.png' alt=''/></button></td>
+                    <td><button  id='lixo' onClick={() => Excluir(item)}>  <img src='/assets/images/icons8-lixo-24.png' alt=''/> </button></td>
                   </tr>
                     
                     )}
